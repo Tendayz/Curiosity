@@ -24,7 +24,7 @@ public class OkHttpHandler extends AsyncTask<String, String, String> {
     private DBHelper dbHelper;
 
     private final OkHttpClient client = new OkHttpClient();
-    private static final String API_URL = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=all&api_key=DEMO_KEY";
+    private static final String API_URL = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY";
     private static final int MAX_PHOTOS = 20;
 
     public static final int MSG_FINISHED = 1;
