@@ -32,11 +32,6 @@ public class DBHelper extends SQLiteOpenHelper {
 
         if (c.moveToFirst()) {
 
-        } else
-            Log.d(LOG_TAG, "0 rows");
-
-        if (c.moveToFirst()) {
-
             int idColIndex = c.getColumnIndex("id");
             int nameColIndex = c.getColumnIndex("name");
             int imgColIndex = c.getColumnIndex("img");
