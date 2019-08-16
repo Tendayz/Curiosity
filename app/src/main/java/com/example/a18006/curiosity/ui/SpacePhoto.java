@@ -37,7 +37,7 @@ public class SpacePhoto implements Parcelable {
 
         LinkedList<SpacePhoto> spacePhoto = new LinkedList<>();
 
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < images.length; i++) {
             spacePhoto.add(new SpacePhoto(images[i]));
         }
         return spacePhoto;
